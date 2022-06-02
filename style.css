@@ -1,8 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(https://celb.lu/wp-content/uploads/2014/04/Gray-plain-website-background.jpg)
+  background-image: url(https://i.ytimg.com/vi/lklDJ5VRQao/maxresdefault.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 /* What kind of selector is this? */
 .logo {
@@ -29,21 +30,21 @@ nav > a {
   margin: 2% 1% 3%;
   height: 10%;
   width: 15%;
-  color: white;
+  color: rgb(217, 16, 16);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   border-radius: 25px;
   background: transparent;
   padding: 20px;
   text-align: center;
-  border: 2px solid white;
+  border: 2px solid rgb(79, 114, 195);
 }
 
 .has-border {
-  border-radius: 15px;
-  border: 2px solid #0795C3;
+  border-radius: 25px;
+  border: 2px solid #a4d829;
   background: none;
-  padding: 10px;
+  padding: 20px;
 }
 
 nav {
@@ -62,10 +63,10 @@ nav {
 }
 
 h1 {
-  color:rgb(221, 19, 19);
+  color:rgb(221, 23, 23);
   grid-column: 2/3;
   margin: 3% auto;
-  border-bottom: 2px solid #1940A9;;
+  border-bottom: 2px solid #030303;;
 }
 
 h2 {
@@ -84,16 +85,16 @@ h2 {
 button {
   grid-column: 2/3;
   margin: 3% auto;
-  width: 70%;
-  height: 15%;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 5%;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 20px;
   border-radius: 25px;
   background: transparent;
-  padding: 20px;
+  padding: 5px;
   padding-bottom: 5%;
   text-align: center;
-  color: white;
-  letter-spacing: 16px;
-  font-style: italic;
+  color: rgb(49, 33, 231);
+  letter-spacing: 5px;
+  font-style: bold;
 }
