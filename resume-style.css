@@ -1,0 +1,53 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Pic Description"
+      "Experience Education"
+      "Contact skills";
+      
+      font-family: 'Press Start 2P', cursive;}
+  
+  .Pic { grid-area: Pic; 
+display:flex;
+justify-content: center;
+background-color:#003b6f;
+}
+  
+  .Description { grid-area: Description; 
+}
+
+  
+  .Experience { grid-area: Experience;
+background-color: #003b6f;
+color: white; }
+  
+  .Education { grid-area: Education; }
+  
+  .Contact { grid-area: Contact; 
+background-color: #003b6f;
+color: white;}
+  
+  .skills { grid-area: skills; }
+  
+  
+  html, body , .container {
+    height: 100%;
+    margin: 0;
+  }
+  
+  img{border-radius: 50%;}
+
+  h1{text-align: center;
+    text-decoration: underline;    
+    }
+p{text-align: center;}
+
+h2{text-decoration: underline;}
+
+  
+
+ 
+     
